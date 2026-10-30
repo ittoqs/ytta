@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+coverage
+.svelte-kit
+dev_server.log
+*.log

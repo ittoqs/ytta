@@ -1,0 +1,397 @@
+[
+  {
+    "id": "lap-001",
+    "brand": "ASUS",
+    "model": "ROG Zephyrus G16 (2024)",
+    "price": 32999000,
+    "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "cpu": {
+        "name": "Intel Core Ultra 9 185H",
+        "cores": 16,
+        "threads": 22
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 4070",
+        "vram": 8
+      },
+      "ram": 32,
+      "storage": {
+        "type": "SSD",
+        "capacity": 1024
+      },
+      "display": {
+        "size": 16.0,
+        "resolution": "2560x1600 (2.5K OLED)",
+        "refresh_rate": 240,
+        "panel_type": "OLED"
+      },
+      "battery": 8,
+      "weight": 1.85
+    },
+    "price_range": "12M+",
+    "suitable_for": [
+      "Kreator Konten",
+      "Programmer",
+      "Game Tester",
+      "Influencer"
+    ],
+    "rating": 4.9,
+    "review_count": 42
+  },
+  {
+    "id": "lap-002",
+    "brand": "Lenovo",
+    "model": "IdeaPad Slim 5 14IRH8",
+    "price": 11499000,
+    "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "cpu": {
+        "name": "Intel Core i5-13420H",
+        "cores": 8,
+        "threads": 12
+      },
+      "gpu": {
+        "name": "Intel UHD Graphics",
+        "vram": 0
+      },
+      "ram": 16,
+      "storage": {
+        "type": "SSD",
+        "capacity": 512
+      },
+      "display": {
+        "size": 14.0,
+        "resolution": "1920x1200 (FHD+)",
+        "refresh_rate": 60,
+        "panel_type": "IPS"
+      },
+      "battery": 9,
+      "weight": 1.46
+    },
+    "price_range": "8-12M",
+    "suitable_for": [
+      "Siswa",
+      "Pekerja Kantoran",
+      "Guru",
+      "Data Analyst"
+    ],
+    "rating": 4.6,
+    "review_count": 88
+  },
+  {
+    "id": "lap-003",
+    "brand": "Apple",
+    "model": "MacBook Air 15\" M3 (2024)",
+    "price": 20999000,
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "cpu": {
+        "name": "Apple M3 8-Core CPU",
+        "cores": 8,
+        "threads": 8
+      },
+      "gpu": {
+        "name": "Apple M3 10-Core GPU",
+        "vram": 8
+      },
+      "ram": 16,
+      "storage": {
+        "type": "SSD",
+        "capacity": 512
+      },
+      "display": {
+        "size": 15.3,
+        "resolution": "2880x1864 (Liquid Retina)",
+        "refresh_rate": 60,
+        "panel_type": "IPS"
+      },
+      "battery": 18,
+      "weight": 1.51
+    },
+    "price_range": "12M+",
+    "suitable_for": [
+      "Kreator Konten",
+      "Programmer",
+      "Influencer",
+      "Pekerja Kantoran"
+    ],
+    "rating": 4.8,
+    "review_count": 115
+  },
+  {
+    "id": "lap-004",
+    "brand": "Acer",
+    "model": "Aspire 5 Slim A514-56G",
+    "price": 7899000,
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "cpu": {
+        "name": "Intel Core i3-1315U",
+        "cores": 6,
+        "threads": 8
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 2050",
+        "vram": 4
+      },
+      "ram": 8,
+      "storage": {
+        "type": "SSD",
+        "capacity": 512
+      },
+      "display": {
+        "size": 14.0,
+        "resolution": "1920x1080 (FHD)",
+        "refresh_rate": 60,
+        "panel_type": "IPS"
+      },
+      "battery": 7,
+      "weight": 1.54
+    },
+    "price_range": "5-8M",
+    "suitable_for": [
+      "Siswa",
+      "Guru",
+      "Pekerja Kantoran"
+    ],
+    "rating": 4.4,
+    "review_count": 60
+  },
+  {
+    "id": "lap-005",
+    "brand": "HP",
+    "model": "Pavilion 14-dv2000",
+    "price": 4999000,
+    "image_url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "cpu": {
+        "name": "Intel Core i3-1215U",
+        "cores": 6,
+        "threads": 8
+      },
+      "gpu": {
+        "name": "Intel UHD Graphics",
+        "vram": 0
+      },
+      "ram": 8,
+      "storage": {
+        "type": "SSD",
+        "capacity": 256
+      },
+      "display": {
+        "size": 14.0,
+        "resolution": "1920x1080 (FHD)",
+        "refresh_rate": 60,
+        "panel_type": "TN"
+      },
+      "battery": 7,
+      "weight": 1.41
+    },
+    "price_range": "3-5M",
+    "suitable_for": [
+      "Siswa",
+      "Guru",
+      "Pekerja Kantoran"
+    ],
+    "rating": 4.3,
+    "review_count": 45
+  },
+  {
+    "id": "lap-006",
+    "brand": "Lenovo",
+    "model": "LOQ 15IAX9",
+    "price": 11999000,
+    "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "cpu": {
+        "name": "Intel Core i5-12450HX",
+        "cores": 8,
+        "threads": 12
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 3050",
+        "vram": 6
+      },
+      "ram": 16,
+      "storage": {
+        "type": "SSD",
+        "capacity": 512
+      },
+      "display": {
+        "size": 15.6,
+        "resolution": "1920x1080 (FHD)",
+        "refresh_rate": 144,
+        "panel_type": "IPS"
+      },
+      "battery": 5,
+      "weight": 2.38
+    },
+    "price_range": "8-12M",
+    "suitable_for": [
+      "Game Tester",
+      "Programmer",
+      "Kreator Konten"
+    ],
+    "rating": 4.7,
+    "review_count": 72
+  },
+  {
+    "id": "lap-007",
+    "brand": "ASUS",
+    "model": "Zenbook 14 OLED UX3405",
+    "price": 17499000,
+    "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "cpu": {
+        "name": "Intel Core Ultra 7 155H",
+        "cores": 16,
+        "threads": 22
+      },
+      "gpu": {
+        "name": "Intel Arc Graphics",
+        "vram": 0
+      },
+      "ram": 32,
+      "storage": {
+        "type": "SSD",
+        "capacity": 1024
+      },
+      "display": {
+        "size": 14.0,
+        "resolution": "2880x1800 (3K OLED)",
+        "refresh_rate": 120,
+        "panel_type": "OLED"
+      },
+      "battery": 12,
+      "weight": 1.22
+    },
+    "price_range": "12M+",
+    "suitable_for": [
+      "Programmer",
+      "Data Analyst",
+      "Pekerja Kantoran",
+      "Kreator Konten",
+      "Influencer"
+    ],
+    "rating": 4.8,
+    "review_count": 53
+  },
+  {
+    "id": "lap-008",
+    "brand": "MSI",
+    "model": "Modern 14 C12MO",
+    "price": 6499000,
+    "image_url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "cpu": {
+        "name": "Intel Core i3-1215U",
+        "cores": 6,
+        "threads": 8
+      },
+      "gpu": {
+        "name": "Intel Iris Xe Graphics",
+        "vram": 0
+      },
+      "ram": 8,
+      "storage": {
+        "type": "SSD",
+        "capacity": 512
+      },
+      "display": {
+        "size": 14.0,
+        "resolution": "1920x1080 (FHD)",
+        "refresh_rate": 60,
+        "panel_type": "IPS"
+      },
+      "battery": 7,
+      "weight": 1.40
+    },
+    "price_range": "5-8M",
+    "suitable_for": [
+      "Siswa",
+      "Guru",
+      "Pekerja Kantoran"
+    ],
+    "rating": 4.5,
+    "review_count": 39
+  },
+  {
+    "id": "lap-009",
+    "brand": "Dell",
+    "model": "XPS 13 9340",
+    "price": 28999000,
+    "image_url": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "cpu": {
+        "name": "Intel Core Ultra 7 155H",
+        "cores": 16,
+        "threads": 22
+      },
+      "gpu": {
+        "name": "Intel Arc Graphics",
+        "vram": 0
+      },
+      "ram": 16,
+      "storage": {
+        "type": "SSD",
+        "capacity": 1024
+      },
+      "display": {
+        "size": 13.4,
+        "resolution": "1920x1200 (FHD+)",
+        "refresh_rate": 120,
+        "panel_type": "IPS"
+      },
+      "battery": 13,
+      "weight": 1.19
+    },
+    "price_range": "12M+",
+    "suitable_for": [
+      "Programmer",
+      "Pekerja Kantoran",
+      "Data Analyst"
+    ],
+    "rating": 4.7,
+    "review_count": 29
+  },
+  {
+    "id": "lap-010",
+    "brand": "Axioo",
+    "model": "Hype 5 AMD",
+    "price": 4699000,
+    "image_url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80",
+    "specs": {
+      "cpu": {
+        "name": "AMD Ryzen 5 5500U",
+        "cores": 6,
+        "threads": 12
+      },
+      "gpu": {
+        "name": "AMD Radeon Graphics",
+        "vram": 0
+      },
+      "ram": 8,
+      "storage": {
+        "type": "SSD",
+        "capacity": 256
+      },
+      "display": {
+        "size": 14.0,
+        "resolution": "1920x1080 (FHD)",
+        "refresh_rate": 60,
+        "panel_type": "IPS"
+      },
+      "battery": 6,
+      "weight": 1.42
+    },
+    "price_range": "3-5M",
+    "suitable_for": [
+      "Siswa",
+      "Guru",
+      "Pekerja Kantoran"
+    ],
+    "rating": 4.4,
+    "review_count": 91
+  }
+]

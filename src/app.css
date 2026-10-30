@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+}
+
+.neo-box {
+  background-color: #ffffff;
+  border: 3px solid #0a0a0a;
+  box-shadow: 4px 4px 0px #0a0a0a;
+  transition: all 0.15s ease-in-out;
+}
+
+.neo-box:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #0a0a0a;
+}
+
+.neo-box-sm {
+  background-color: #ffffff;
+  border: 2px solid #0a0a0a;
+  box-shadow: 3px 3px 0px #0a0a0a;
+}
+
+.neo-btn {
+  background-color: #0066FF;
+  color: #ffffff;
+  font-weight: 700;
+  border: 3px solid #0a0a0a;
+  box-shadow: 4px 4px 0px #0a0a0a;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.neo-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #0a0a0a;
+  background-color: #0052cc;
+}
+
+.neo-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #0a0a0a;
+}
+
+.neo-btn-accent {
+  background-color: #00CC66;
+  color: #0a0a0a;
+}
+
+.neo-btn-accent:hover {
+  background-color: #00b359;
+}
+
+.neo-btn-yellow {
+  background-color: #FFCC00;
+  color: #0a0a0a;
+}
+
+.neo-btn-yellow:hover {
+  background-color: #e6b800;
+}
+
+.neo-btn-outline {
+  background-color: #ffffff;
+  color: #0a0a0a;
+}
+
+.neo-btn-outline:hover {
+  background-color: #f0f0f0;
+}
+
+.neo-badge {
+  border: 2px solid #0a0a0a;
+  box-shadow: 2px 2px 0px #0a0a0a;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0px;
+}

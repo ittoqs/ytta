@@ -1,0 +1,203 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Database spesifikasi laptop terbaru dan template untuk pembaruan data Smart Laptop Advisor",
+  "laptops": [
+    {
+      "id": "lap-001",
+      "brand": "ASUS",
+      "model": "ROG Zephyrus G16 (2024)",
+      "price": 32999000,
+      "image_url": "https://example.com/images/asus-rog-g16.jpg",
+      "specs": {
+        "cpu": {
+          "name": "Intel Core Ultra 9 185H",
+          "cores": 16,
+          "threads": 22
+        },
+        "gpu": {
+          "name": "NVIDIA GeForce RTX 4070",
+          "vram": 8
+        },
+        "ram": 32,
+        "storage": {
+          "type": "SSD",
+          "capacity": 1024
+        },
+        "display": {
+          "size": 16.0,
+          "resolution": "2560x1600 (2.5K OLED)",
+          "refresh_rate": 240,
+          "panel_type": "OLED"
+        },
+        "battery": 8,
+        "weight": 1.85
+      },
+      "price_range": "12M+",
+      "suitable_for": [
+        "Kreator Konten",
+        "Programmer",
+        "Game Tester",
+        "Influencer"
+      ],
+      "rating": 4.9,
+      "review_count": 42
+    },
+    {
+      "id": "lap-002",
+      "brand": "Lenovo",
+      "model": "IdeaPad Slim 5 14IRH8",
+      "price": 11499000,
+      "image_url": "https://example.com/images/lenovo-ideapad-slim5.jpg",
+      "specs": {
+        "cpu": {
+          "name": "Intel Core i5-13420H",
+          "cores": 8,
+          "threads": 12
+        },
+        "gpu": {
+          "name": "Intel UHD Graphics",
+          "vram": 0
+        },
+        "ram": 16,
+        "storage": {
+          "type": "SSD",
+          "capacity": 512
+        },
+        "display": {
+          "size": 14.0,
+          "resolution": "1920x1200 (FHD+)",
+          "refresh_rate": 60,
+          "panel_type": "IPS"
+        },
+        "battery": 9,
+        "weight": 1.46
+      },
+      "price_range": "8-12M",
+      "suitable_for": [
+        "Siswa",
+        "Pekerja Kantoran",
+        "Guru",
+        "Data Analyst"
+      ],
+      "rating": 4.6,
+      "review_count": 88
+    },
+    {
+      "id": "lap-003",
+      "brand": "Apple",
+      "model": "MacBook Air 15\" M3 (2024)",
+      "price": 20999000,
+      "image_url": "https://example.com/images/macbook-air-m3.jpg",
+      "specs": {
+        "cpu": {
+          "name": "Apple M3 8-Core CPU",
+          "cores": 8,
+          "threads": 8
+        },
+        "gpu": {
+          "name": "Apple M3 10-Core GPU",
+          "vram": 8
+        },
+        "ram": 16,
+        "storage": {
+          "type": "SSD",
+          "capacity": 512
+        },
+        "display": {
+          "size": 15.3,
+          "resolution": "2880x1864 (Liquid Retina)",
+          "refresh_rate": 60,
+          "panel_type": "IPS"
+        },
+        "battery": 18,
+        "weight": 1.51
+      },
+      "price_range": "12M+",
+      "suitable_for": [
+        "Kreator Konten",
+        "Programmer",
+        "Influencer",
+        "Pekerja Kantoran"
+      ],
+      "rating": 4.8,
+      "review_count": 115
+    },
+    {
+      "id": "lap-004",
+      "brand": "Acer",
+      "model": "Aspire 5 Slim A514-56G",
+      "price": 7899000,
+      "image_url": "https://example.com/images/acer-aspire-5.jpg",
+      "specs": {
+        "cpu": {
+          "name": "Intel Core i3-1315U",
+          "cores": 6,
+          "threads": 8
+        },
+        "gpu": {
+          "name": "NVIDIA GeForce RTX 2050",
+          "vram": 4
+        },
+        "ram": 8,
+        "storage": {
+          "type": "SSD",
+          "capacity": 512
+        },
+        "display": {
+          "size": 14.0,
+          "resolution": "1920x1080 (FHD)",
+          "refresh_rate": 60,
+          "panel_type": "IPS"
+        },
+        "battery": 7,
+        "weight": 1.54
+      },
+      "price_range": "5-8M",
+      "suitable_for": [
+        "Siswa",
+        "Guru",
+        "Pekerja Kantoran"
+      ],
+      "rating": 4.4,
+      "review_count": 60
+    },
+    {
+      "id": "template_id_berikutnya",
+      "brand": "String (Contoh: HP / Dell / Acer)",
+      "model": "String Model Laptop",
+      "price": 0,
+      "image_url": "https://link-gambar-laptop.com/image.jpg",
+      "specs": {
+        "cpu": {
+          "name": "String Nama Processor",
+          "cores": 0,
+          "threads": 0
+        },
+        "gpu": {
+          "name": "String Nama GPU",
+          "vram": 0
+        },
+        "ram": 0,
+        "storage": {
+          "type": "SSD",
+          "capacity": 0
+        },
+        "display": {
+          "size": 0.0,
+          "resolution": "1920x1080",
+          "refresh_rate": 60,
+          "panel_type": "IPS"
+        },
+        "battery": 0,
+        "weight": 0.0
+      },
+      "price_range": "3-5M|5-8M|8-12M|12M+",
+      "suitable_for": [
+        "Nama Profesi 1",
+        "Nama Profesi 2"
+      ],
+      "rating": 0.0,
+      "review_count": 0
+    }
+  ]
+}

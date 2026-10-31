@@ -1,6 +1,6 @@
 # 💻 Smart Laptop Advisor - SPK Laptop Berbasis Web
 
-**Smart Laptop Advisor** adalah aplikasi web yang membantu calon pengguna memilih laptop yang sesuai dengan kebutuhan mereka menggunakan Sistem Pendukung Keputusan (SPK) dengan metode Weighted Scoring.
+**Smart Laptop Advisor** adalah aplikasi web yang membantu calon pengguna memilih laptop yang sesuai dengan kebutuhan menggunakan Sistem Pendukung Keputusan (SPK) dengan metode Weighted Scoring.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()
@@ -13,9 +13,9 @@
 ## 🎯 Features
 
 ✨ **Fitur Utama:**
-- 🎨 **Antarmuka Intuitif**: Design Neo-Brutalism dengan tema KDE Plasma
-- 🧙 **Smart Wizard**: 3-4 langkah pemilihan profesi → rekomendasi laptop
-- 📊 **Algoritma Cerdas**: Weighted Scoring untuk rekomendasi yang akurat
+- 🎨 **Antarmuka Intuitif**: Desain Neo-Brutalism dengan tema kontras tinggi
+- 🔍 **Wizard Pemilihan**: 3 langkah pemilihan profesi → rekomendasi laptop
+- 📊 **Algoritma SPK**: Weighted Scoring untuk rekomendasi yang akurat
 - 🎯 **Preset Profesi**: 9+ preset (Kreator Konten, Programmer, Guru, Siswa, dll)
 - ⚙️ **Customization Hardware**: Manual tweak CPU, GPU, RAM, Storage, Display, dll
 - 🔄 **Compare Mode**: Bandingkan 2-3 laptop side-by-side

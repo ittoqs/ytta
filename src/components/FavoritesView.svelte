@@ -10,39 +10,40 @@
   }
 </script>
 
-<div class="space-y-8">
+<div class="space-y-6 sm:space-y-8">
   <!-- Title Banner -->
-  <div class="neo-box p-6 bg-[#FF3333] text-white">
+  <div class="neo-box p-5 sm:p-6 bg-[#FF3333] text-white border-3 border-black">
     <div class="flex flex-wrap items-center justify-between gap-4">
       <div>
-        <span class="neo-badge bg-[#FFCC00] text-black">Saved Items</span>
-        <h2 class="text-2xl lg:text-3xl font-black uppercase mt-2">Daftar Laptop Favorit Anda</h2>
-        <p class="text-xs lg:text-sm font-semibold text-red-100">
-          Laptop yang telah Anda bookmark disimpan di penyimpanan lokal perangkat ini.
+        <span class="neo-badge bg-[#FFCC00] text-black border border-black font-black">Item Tersimpan</span>
+        <h2 class="text-xl sm:text-2xl lg:text-3xl font-black uppercase mt-2">Daftar Laptop Favorit</h2>
+        <p class="text-xs sm:text-sm font-bold text-yellow-100 mt-1">
+          Laptop yang telah dibookmark disimpan di penyimpanan lokal perangkat ini.
         </p>
       </div>
     </div>
   </div>
 
   {#if laptops.length === 0}
-    <div class="neo-box p-12 text-center bg-white space-y-4">
-      <div class="text-5xl">❤️</div>
-      <h3 class="text-xl font-black uppercase">Belum Ada Laptop Favorit</h3>
-      <p class="text-sm text-gray-600 max-w-md mx-auto">
-        Klik ikon hati (❤️) pada kartu laptop rekomendasi untuk menyimpan laptop favorit Anda di sini.
+    <div class="neo-box p-8 sm:p-12 text-center bg-white space-y-4 border-3 border-black text-black">
+      <div class="text-4xl sm:text-5xl">❤️</div>
+      <h3 class="text-lg sm:text-xl font-black uppercase text-black">Belum Ada Laptop Favorit</h3>
+      <p class="text-xs sm:text-sm text-gray-700 max-w-md mx-auto font-medium">
+        Klik ikon hati (❤️) pada kartu laptop rekomendasi untuk menyimpan laptop favorit di sini.
       </p>
     </div>
   {:else}
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {#each laptops as lap (lap.id)}
-        <div class="neo-box bg-white p-5 flex flex-col justify-between relative">
+        <div class="neo-box bg-white p-5 flex flex-col justify-between relative border-3 border-black text-black">
           <div>
             <!-- Header buttons -->
             <div class="flex items-center justify-between mb-3">
-              <span class="neo-badge bg-[#0066FF] text-white">{lap.brand}</span>
+              <span class="neo-badge bg-[#0055DD] text-white border border-black font-black">{lap.brand}</span>
               <button
+                type="button"
                 on:click={() => onRemoveFavorite(lap.id)}
-                class="neo-btn neo-btn-outline p-1 text-xs font-bold bg-red-100 hover:bg-red-200"
+                class="neo-btn px-2 py-1 text-xs font-black bg-red-100 hover:bg-red-200 text-red-900 border-2 border-black"
                 title="Hapus dari Favorit"
               >
                 ❤️ Hapus
@@ -50,37 +51,38 @@
             </div>
 
             <!-- Laptop Image -->
-            <div class="bg-gray-100 border-2 border-black mb-4 overflow-hidden h-44 flex items-center justify-center p-2">
-              <img src={lap.image_url} alt={lap.model} class="max-h-full max-w-full object-contain" />
+            <div class="bg-gray-50 border-2 border-black mb-4 overflow-hidden h-44 flex items-center justify-center p-3">
+              <img src={lap.image_url} alt={lap.model} class="max-h-full max-w-full object-contain" loading="lazy" />
             </div>
 
             <!-- Laptop Title -->
             <div class="mb-3">
-              <h3 class="text-base font-black uppercase leading-tight line-clamp-2">{lap.model}</h3>
-              <p class="text-lg font-black text-[#0066FF] mt-1">{formatIDR(lap.price)}</p>
+              <h3 class="text-base font-black uppercase leading-tight line-clamp-2 text-black">{lap.model}</h3>
+              <p class="text-lg font-black text-[#0055DD] mt-1">{formatIDR(lap.price)}</p>
             </div>
 
             <!-- Specs Summary -->
-            <div class="neo-box-sm p-3 bg-slate-50 text-xs space-y-1 font-mono mb-4">
-              <div class="flex justify-between">
-                <span class="text-gray-500">CPU:</span>
-                <span class="font-bold text-black truncate max-w-[160px]">{lap.specs.cpu.name}</span>
+            <div class="neo-box-sm p-3 bg-slate-50 text-xs space-y-1.5 font-mono mb-4 border-2 border-black text-black">
+              <div class="flex justify-between items-center gap-2">
+                <span class="text-gray-600 font-bold">CPU:</span>
+                <span class="font-black text-black truncate max-w-[170px] text-right">{lap.specs.cpu.name}</span>
               </div>
-              <div class="flex justify-between">
-                <span class="text-gray-500">RAM / SSD:</span>
-                <span class="font-bold text-black">{lap.specs.ram}GB / {lap.specs.storage.capacity}GB</span>
+              <div class="flex justify-between items-center gap-2">
+                <span class="text-gray-600 font-bold">RAM / SSD:</span>
+                <span class="font-black text-black">{lap.specs.ram}GB / {lap.specs.storage.capacity}GB</span>
               </div>
-              <div class="flex justify-between">
-                <span class="text-gray-500">GPU:</span>
-                <span class="font-bold text-black truncate max-w-[160px]">{lap.specs.gpu.name}</span>
+              <div class="flex justify-between items-center gap-2">
+                <span class="text-gray-600 font-bold">GPU:</span>
+                <span class="font-black text-black truncate max-w-[170px] text-right">{lap.specs.gpu.name}</span>
               </div>
             </div>
           </div>
 
           <!-- Bottom Action -->
           <button
+            type="button"
             on:click={() => onSelectLaptop(lap.id)}
-            class="neo-btn neo-btn-accent w-full py-2 text-xs font-black uppercase"
+            class="neo-btn w-full py-2.5 text-xs font-black uppercase bg-[#00CC66] text-black hover:bg-[#00b359] border-2 border-black"
           >
             🔍 Lihat Detail
           </button>

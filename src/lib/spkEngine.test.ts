@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { calculateNormalizedScores, computeRecommendations, PROFESSION_PRESETS, Laptop } from './spkEngine';
+import { calculateNormalizedScores, computeRecommendations, type Laptop } from './spkEngine';
 import rawLaptops from '../data/laptops.json';
 
 const testLaptops = rawLaptops as Laptop[];

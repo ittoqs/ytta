@@ -126,7 +126,7 @@ export const PROFESSION_PRESETS: Record<string, {
   },
   'Personalisasi': {
     name: 'Personalisasi (Custom)',
-    description: 'Atur preferensi kriteria kamu sendiri sesuai selera',
+    description: 'Atur preferensi kriteria sendiri sesuai kebutuhan',
     icon: 'Sliders',
     weights: { cpu: 20, gpu: 20, ram: 15, storage: 15, display: 10, battery: 10, portability: 10, price: 0 }
   }

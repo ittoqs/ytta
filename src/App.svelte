@@ -10,6 +10,7 @@
   import LaptopDetailModal from './components/LaptopDetailModal.svelte';
   import CompareView from './components/CompareView.svelte';
   import FavoritesView from './components/FavoritesView.svelte';
+  import CustomModal from './components/CustomModal.svelte';
 
   import rawLaptops from './data/laptops.json';
   import {
@@ -43,6 +44,12 @@
   let favorites: string[] = [];
   let compareList: string[] = [];
   let selectedLaptopId: string | null = null;
+
+  // Custom Modal Alert State
+  let isAlertModalOpen = false;
+  let alertModalTitle = 'Perhatian';
+  let alertModalMessage = '';
+  let alertModalType: 'info' | 'warning' | 'success' = 'warning';
 
   onMount(() => {
     const savedFavs = localStorage.getItem('sla_favorites');
@@ -81,7 +88,10 @@
       compareList = compareList.filter(item => item !== id);
     } else {
       if (compareList.length >= 3) {
-        alert('Maksimal 3 laptop untuk dibandingkan secara bersamaan!');
+        alertModalTitle = 'Batas Maksimum Pembanding';
+        alertModalMessage = 'Maksimal 3 laptop untuk dibandingkan secara bersamaan. Hapus salah satu laptop terlebih dahulu untuk menambahkan lainnya.';
+        alertModalType = 'warning';
+        isAlertModalOpen = true;
         return;
       }
       compareList = [...compareList, id];
@@ -146,7 +156,7 @@
     onSelectTab={handleSelectTab}
   />
 
-  <main class="flex-grow max-w-7xl w-full mx-auto px-4 lg:px-8 py-8">
+  <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
     {#if activeTab === 'home'}
       <LandingPage
         onStartWizard={startWizard}
@@ -214,4 +224,13 @@
       onToggleCompare={toggleCompare}
     />
   {/if}
+
+  <!-- Custom Alert Modal -->
+  <CustomModal
+    isOpen={isAlertModalOpen}
+    title={alertModalTitle}
+    message={alertModalMessage}
+    type={alertModalType}
+    onClose={() => isAlertModalOpen = false}
+  />
 </div>

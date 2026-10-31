@@ -29,7 +29,7 @@
         <span class="bg-purple-600 px-2 py-1 border border-white">Vite</span>
       </div>
       <p class="text-xs text-gray-400 mt-4 font-semibold">
-        © 2026 Smart Laptop Advisor - Herliana, S.Pd.,Gr - Produktif Pemasaran SMKN 1 Sinjai. Lisensi MIT.
+        © 2026 Laptop Advisor. Herliana, S.Pd.,Gr - Produktif Pemasaran. SMKN 1 Sinjai.
       </p>
     </div>
   </div>

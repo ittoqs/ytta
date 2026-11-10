@@ -4,7 +4,7 @@
     "brand": "ASUS",
     "model": "ROG Zephyrus G16 (2024)",
     "price": 32999000,
-    "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80",
+    "image_url": "https://dlcdnwebimgs.asus.com/files/media/202511/fdb65e54-ad78-4bbc-9403-05c252096e92/v5/images/kv@2x.webp",
     "specs": {
       "cpu": {
         "name": "Intel Core Ultra 9 185H",
@@ -44,7 +44,7 @@
     "brand": "Lenovo",
     "model": "IdeaPad Slim 5 14IRH8",
     "price": 11499000,
-    "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+    "image_url": "https://p1-ofp.static.pub//fes/cms/2024/09/19/y2ygnfscb4z3wqynrsmjmn30878lok770228.png",
     "specs": {
       "cpu": {
         "name": "Intel Core i5-13420H",
@@ -84,7 +84,7 @@
     "brand": "Apple",
     "model": "MacBook Air 15\" M3 (2024)",
     "price": 20999000,
-    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+    "image_url": "https://laptopmedia.com/wp-content/uploads/2024/04/4-15-1000x563.jpg",
     "specs": {
       "cpu": {
         "name": "Apple M3 8-Core CPU",
@@ -124,7 +124,7 @@
     "brand": "Acer",
     "model": "Aspire 5 Slim A514-56G",
     "price": 7899000,
-    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+    "image_url": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//102/MTA-83745092/acer_acer-aspire-5-slim-a514-54-56mu-i5-1135g7-8gb-512gb-win11-iris-xe_full02.jpg",
     "specs": {
       "cpu": {
         "name": "Intel Core i3-1315U",
@@ -163,7 +163,7 @@
     "brand": "HP",
     "model": "Pavilion 14-dv2000",
     "price": 4999000,
-    "image_url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+    "image_url": "https://id-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c07991100.png",
     "specs": {
       "cpu": {
         "name": "Intel Core i3-1215U",
@@ -202,7 +202,7 @@
     "brand": "Lenovo",
     "model": "LOQ 15IAX9",
     "price": 11999000,
-    "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+    "image_url": "https://p4-ofp.static.pub//fes/cms/2024/05/20/d6onrgwtki5a57q687ztkqftuog5mf017643.png",
     "specs": {
       "cpu": {
         "name": "Intel Core i5-12450HX",
@@ -241,7 +241,7 @@
     "brand": "ASUS",
     "model": "Zenbook 14 OLED UX3405",
     "price": 17499000,
-    "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+    "image_url": "https://id.store.asus.com/media/catalog/product/z/e/zenbook_14_oled_ux3405ma_product_photo_3s_foggy_silver_03_1.jpg",
     "specs": {
       "cpu": {
         "name": "Intel Core Ultra 7 155H",
@@ -282,7 +282,7 @@
     "brand": "MSI",
     "model": "Modern 14 C12MO",
     "price": 6499000,
-    "image_url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
+    "image_url": "https://pegastore.id/media/product/produk-1739954101.jpg",
     "specs": {
       "cpu": {
         "name": "Intel Core i3-1215U",
@@ -321,7 +321,7 @@
     "brand": "Dell",
     "model": "XPS 13 9340",
     "price": 28999000,
-    "image_url": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=800&q=80",
+    "image_url": "https://i.dell.com/assetlink/img/global/dbcs-10352750-laptop-xps-dx16263-banner-1024x768-us-dl12sgp4-original.jpg",
     "specs": {
       "cpu": {
         "name": "Intel Core Ultra 7 155H",
@@ -360,7 +360,7 @@
     "brand": "Axioo",
     "model": "Hype 5 AMD",
     "price": 4699000,
-    "image_url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80",
+    "image_url": "https://axiooworld.com/uploads/products/c453ef7d-026f-4bc1-9811-94d4f2918524.png?h=554&w=732&s=9805ae011a5f6a9894f3ad330dee9b28",
     "specs": {
       "cpu": {
         "name": "AMD Ryzen 5 5500U",
@@ -394,4 +394,4 @@
     "rating": 4.4,
     "review_count": 91
   }
-]
+      ]
